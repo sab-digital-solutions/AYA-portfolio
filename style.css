@@ -28,7 +28,7 @@ h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.35}
 /* NAV */
 .nav{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:1rem clamp(1rem,5vw,4rem);transition:.4s}
 .nav.solid{background:rgba(53,6,15,.96);backdrop-filter:blur(8px)}
-.wordmark{font:400 2rem/1 'Alex Brush',cursive;direction:ltr;white-space:nowrap;text-transform:uppercase}
+.wordmark{font:400 2rem/1 'Great Vibes',cursive;direction:ltr;white-space:nowrap}
 .menu{display:flex;gap:2.2rem}
 .menu a{position:relative;font-size:.98rem}
 .menu a::after{content:"";position:absolute;inset:auto 0 -4px;height:1px;background:var(--pink);transform:scaleX(0);transition:.4s var(--ease)}
@@ -42,7 +42,7 @@ h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.35}
 /* HERO */
 .hero{min-height:100svh;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:2rem;padding:7rem clamp(1rem,6vw,6rem) 4rem;background:var(--burg-deep)}
 /* Hero monogram + calligraphic name */
-.hero-name{font:400 clamp(3.1rem,7.2vw,6.1rem)/1.12 'Alex Brush',cursive;direction:ltr;text-align:start;text-transform:uppercase;margin:0 0 .3rem;color:var(--cream);letter-spacing:.035em;white-space:nowrap}
+.hero-name{font:400 clamp(2.9rem,7vw,5.8rem)/1.1 'Great Vibes',cursive;direction:ltr;text-align:start;margin:0 0 .3rem;color:var(--cream);letter-spacing:.05em;white-space:nowrap}
 .hero-text .eyebrow{margin:0 0 1.6rem;letter-spacing:.35em;font-size:.85rem}
 .hero-head{font:700 clamp(1.7rem,3.4vw,2.6rem)/1.5 var(--head)}
 .hero-sub{max-width:30rem;margin:.6rem 0 2rem;font:700 clamp(1.15rem,2vw,1.4rem)/1.8 var(--head);color:var(--cream)}
