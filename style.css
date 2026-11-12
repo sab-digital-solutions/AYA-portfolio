@@ -173,3 +173,14 @@ dl>div{border-inline-start:2px solid var(--pink);padding-inline-start:1rem}
 .orn.bl{bottom:12px;left:12px;transform:scaleY(-1)}.orn.br{bottom:12px;right:12px;transform:scale(-1)}
 .logo{position:relative;z-index:2;display:block}.logo img{height:46px;width:auto}
 #collections{background:var(--cream)}
+.custom-fig {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.custom-fig img {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
