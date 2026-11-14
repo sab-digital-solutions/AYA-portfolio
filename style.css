@@ -594,3 +594,108 @@ img, svg {
     z-index: 3;
     box-sizing: border-box;
 }
+/* AYA - Collections heading fix */
+
+header.sec-head#collections {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-inline: auto !important;
+}
+
+header.sec-head#collections .eyebrow,
+header.sec-head#collections h2 {
+    background: transparent !important;
+}
+/* Process - plain beige background */
+.sec.process.light.floral {
+    background: var(--beige) !important;
+}
+/* FIX - Mobile navigation background */
+
+@media (max-width: 860px) {
+    .nav .menu {
+        background-color: var(--burg-deep) !important;
+        background-image: none !important;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav .menu.open {
+        background-color: var(--burg-deep) !important;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav .menu a {
+        color: var(--cream);
+    }
+}
+/* Fix mobile menu background covering full screen */
+
+.nav.solid {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+}
+
+@media (max-width: 860px) {
+    .nav .menu {
+        position: fixed !important;
+        inset: 0 !important;
+        width: 100vw !important;
+        height: 100dvh !important;
+        max-width: none !important;
+        background: var(--burg-deep) !important;
+        z-index: 100;
+    }
+}
+/* Keep close button above mobile menu */
+
+@media (max-width: 860px) {
+    .nav .burger {
+        position: relative;
+        z-index: 101 !important;
+    }
+}
+/* AYA - Elegant Mobile Menu Links */
+
+@media (max-width: 860px) {
+
+    .nav .menu {
+        gap: 0 !important;
+    }
+
+    .nav .menu a {
+        font-size: 2rem !important;
+        font-weight: 600;
+        padding: 1.2rem 0;
+        width: 65%;
+        text-align: center;
+        color: var(--cream);
+    }
+
+    /* Thin separators */
+    .nav .menu a:not(:last-child)::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+        width: 60%;
+        height: 1px;
+        background: rgba(217, 185, 158, 0.45);
+    }
+
+}
+.sab-credit a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color .3s ease;
+}
+
+.sab-credit a:hover {
+    color: var(--burg);
+    text-decoration: underline;
+}
